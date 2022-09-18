@@ -22,6 +22,8 @@ public class EcodationSpringReactApplication {
 
         //Disables headless JOptionPane
         System.setProperty("java.awt.headless", "false");
+
+        //PSVM
         SpringApplication.run(EcodationSpringReactApplication.class, args);
     }
 

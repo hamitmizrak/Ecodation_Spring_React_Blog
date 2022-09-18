@@ -44,7 +44,7 @@ public class BlogRegisterServiceImpl implements IBlogRegisterServices {
     }
 
     //CREATE
-    // http://localhsot:8080/blog/register/create
+    // http://localhost:8080/blog/register/create
     @Override
     @PostMapping("blog/register/create")
     public BlogRegisterDto createblogRegister(@RequestBody BlogRegisterDto blogRegisterDto) {
